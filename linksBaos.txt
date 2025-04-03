@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/44079820/what-is-export-type-in-typescript
+https://maishamalihaa.medium.com/get-data-from-mongodb-through-nodejs-in-reactjs-using-axios-b27930c35660
+https://learn.mongodb.com/learning-paths/using-mongodb-with-nodejs
+https://dev.to/anticoder03/how-to-connect-a-react-app-with-mongodb-a-complete-guide-227a
+https://www.devmedia.com.br/consumindo-uma-api-com-react-js-e-axios/42900
