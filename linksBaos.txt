@@ -3,3 +3,7 @@ https://maishamalihaa.medium.com/get-data-from-mongodb-through-nodejs-in-reactjs
 https://learn.mongodb.com/learning-paths/using-mongodb-with-nodejs
 https://dev.to/anticoder03/how-to-connect-a-react-app-with-mongodb-a-complete-guide-227a
 https://www.devmedia.com.br/consumindo-uma-api-com-react-js-e-axios/42900
+https://www.luiztools.com.br/post/tutorial-crud-em-node-js-com-driver-nativo-do-mongodb/
+https://medium.com/@jonathanjuliani/nodejs-require-exports-module-exports-entenda-de-vez-9297dcd5654f
+
+uri = mongodb://localhost:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.4.2

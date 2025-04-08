@@ -18,7 +18,9 @@ export async function shoes() { //
         await client.close();
     }
 }
-//module.exports = {shoes};
+
+
+module.exports = {shoes};
 //export default {shoes};
 
 //console.log(dataset) //array de objetos.
