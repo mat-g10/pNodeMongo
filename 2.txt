@@ -1,0 +1,49 @@
+Aqui está um exemplo de como carregar coleções do MongoDB em um projeto Node.js usando uma URI de conexão. Vou fornecer também um esquema de arquivos para implementar isso.
+Esquema de Arquivos
+Code
+
+my-mongodb-project/
+│
+├── config/
+│   └── db.config.js
+│
+├── src/
+│   ├── index.js
+│   └── database.js
+│
+├── .env
+├── package.json
+└── README.md
+
+Passo a Passo
+1. Configurar o Projeto Node.js
+
+Inicie um novo projeto Node.js e instale a dependência do MongoDB:
+bash
+
+mkdir my-mongodb-project
+cd my-mongodb-project
+npm init -y
+npm install mongodb dotenv
+
+2. Criar Arquivo de Configuração
+
+Crie um arquivo .env para armazenar a URI do MongoDB:
+
+Crie um arquivo db.config.js na pasta config para carregar as variáveis de ambiente:
+3. Implementar Conexão e Carregamento de Coleções
+
+Crie um arquivo database.js na pasta src para gerenciar a conexão com o MongoDB:
+
+Crie um arquivo index.js na pasta src para testar a conexão e carregar as coleções:
+4. Executar o Projeto
+
+Para rodar o projeto, use o comando:
+bash
+
+node src/index.js
+
+Isso conectará ao MongoDB usando a URI fornecida, carregará as coleções users e posts, e exibirá seus documentos no console.
+Conclusão
+
+Esse esquema de arquivos e o código fornecido ajudam a configurar um projeto Node.js que se conecta a um banco de dados MongoDB e carrega coleções específicas. Certifique-se de ajustar a URI do MongoDB e o nome das coleções conforme necessário para seu projeto.

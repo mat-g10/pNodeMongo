@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
-dotenv.config({ path: '/root/node-app/.env' })
-import { createClient } from "./prep.js";
+dotenv.config(/*{ path: '/root/node-app/.env' }*/) //
+import { createClient } from "../prep.js";
 import { promises as fs } from 'fs';
 
 // This method creates a client
